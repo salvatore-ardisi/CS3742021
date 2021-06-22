@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ArdisiSalvatoreMidterm2021v1</string>
+    <string name="convert">Convert!</string>
+    <string name="mm_to_m">Convert meters to millimeters!</string>
+</resources>
