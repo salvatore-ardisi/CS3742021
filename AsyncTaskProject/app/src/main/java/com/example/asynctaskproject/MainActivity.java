@@ -12,19 +12,22 @@ import java.net.URL;
 
 
 public class MainActivity extends AppCompatActivity {
-    private ImageView imageView;
+    private Button button;
+
+//    https://user-images.githubusercontent.com/7751641/123351798-f7a49300-d52b-11eb-92c1-b15a357904ca.png
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = findViewById(R.id.view_image);
-        imageView = (ImageView)findViewById(R.id.my_image);
-    }
+        Button button = (Button)findViewById(R.id.view_image);
 
-    public void displayImage(View view) throws MalformedURLException {
-        URL url = new URL("https://i0.wp.com/bam.trending-in.com/wp-content/uploads/2018/12/" +
-                "heavy_d_the_boyz_973x600.jpg?fit=973%2C600&ssl=1");
-        new ImageDownloader(imageView).execute();
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ImageDownloader myImage = new ImageDownloader(com.example.asynctaskproject.MainActivity.this);
+                myImage.execute("https://user-images.githubusercontent.com/7751641/123351798-f7a49300-d52b-11eb-92c1-b15a357904ca.png");
+            }
+        });
     }
 }
