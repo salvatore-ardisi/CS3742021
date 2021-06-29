@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CS374FirebaseExample</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="enter_employee_name">Enter employee name</string>
+</resources>
