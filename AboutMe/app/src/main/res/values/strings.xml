@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Salvatore</string>
+    <string name="YellowStar">yellow_star</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+    <string name="bio_text">Hi, my name is Salvatore.
+\n\nLorem ipsum dolor sit amet,
+\n\nconsectetur adipiscing elit. Sed hendrerit hendrerit nulla quis interdum. Vestibulum eget libero vel ligula pretium suscipit.
+\nIn lacinia at velit eget fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\n\nPellentesque quis aliquam sapien, non venenatis tortor.
+\nVestibulum et est leo. Nam porttitor lectus at rhoncus volutpat..
+\nNam ullamcorper efficitur tortor, a bibendum purus rhoncus ut. Curabitur ornare lacus quis velit dapibus pharetra.
+\n\nVivamus porta sapien placerat mauris pulvinar consectetur.
+\n\nCurabitur nec ex et magna tempus molestie. Duis rhoncus, ipsum at elementum elementum,
+\nelit mauris posuere nisl, quis facilisis felis lectus at nunc.\n\n</string>
+</resources>
